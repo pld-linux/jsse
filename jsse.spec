@@ -5,7 +5,7 @@ Version:	1.0.2
 Release:	1
 License:	See http://java.sun.com/products/jsse for details!!!
 Group:		Development/Languages/Java
-Source0:	jsse-1_0_2-gl.zip
+Source0:	%{name}-1_0_2-gl.zip
 URL:		http://java.sun.com/products/jsse/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
