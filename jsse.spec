@@ -5,8 +5,6 @@ Version:	1.0.2
 Release:	1
 License:	See http://java.sun.com/products/jsse for details!!!
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 Source0:	jsse-1_0_2-gl.zip
 URL:		http://java.sun.com/products/jsse/
 BuildArch:	noarch
@@ -24,8 +22,6 @@ Rozszerzenie Java Secure Socket Extension do Javy.
 Summary:	Documentation for Java Secure Socket Extension
 Summary(pl):	Dokumentacja do Java Secure Socket Extension
 Group:		Development/Languages/Java
-Group(de):	Entwicklung/Sprachen/Java
-Group(pl):	Programowanie/Jêzyki/Java
 
 %description doc
 Documentation for Java Secure Socket Extension.
