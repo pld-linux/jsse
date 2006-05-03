@@ -1,11 +1,12 @@
+%define		_ver	03
 Summary:	Java Secure Socket Extension
 Summary(pl):	Rozszerzenie Secure Socket do Javy
 Name:		jsse
-Version:	1.0.2
+Version:	1.0.3_%{_ver}
 Release:	1
 License:	restricted, non-distributable (see COPYRIGHT.html)
 Group:		Development/Languages/Java
-Source0:	%{name}-1_0_2-gl.zip
+Source0:	%{name}-1_0_3_%{_ver}-gl.zip
 URL:		http://java.sun.com/products/jsse/
 NoSource:	0
 Requires:	jre >= 1.2.1
