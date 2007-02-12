@@ -1,6 +1,6 @@
 %define		_ver	03
 Summary:	Java Secure Socket Extension
-Summary(pl):	Rozszerzenie Secure Socket do Javy
+Summary(pl.UTF-8):   Rozszerzenie Secure Socket do Javy
 Name:		jsse
 Version:	1.0.3_%{_ver}
 Release:	1
@@ -18,18 +18,18 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Java Secure Socket Extension.
 
-%description -l pl
+%description -l pl.UTF-8
 Rozszerzenie Java Secure Socket Extension do Javy.
 
 %package doc
 Summary:	Documentation for Java Secure Socket Extension
-Summary(pl):	Dokumentacja do Java Secure Socket Extension
+Summary(pl.UTF-8):   Dokumentacja do Java Secure Socket Extension
 Group:		Development/Languages/Java
 
 %description doc
 Documentation for Java Secure Socket Extension.
 
-%description doc -l pl
+%description doc -l pl.UTF-8
 Dokumentacja do rozszerzenia Java Secure Socket Extension.
 
 %prep
