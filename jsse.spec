@@ -7,8 +7,9 @@ Release:	1
 License:	restricted, non-distributable (see COPYRIGHT.html)
 Group:		Development/Languages/Java
 Source0:	%{name}-1_0_3_%{_ver}-gl.zip
-URL:		http://java.sun.com/products/jsse/
 NoSource:	0
+URL:		http://java.sun.com/products/jsse/
+BuildRequires:	unzip
 Requires:	jre >= 1.2.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
